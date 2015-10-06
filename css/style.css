@@ -1,0 +1,269 @@
+
+/*===================================================================*/
+/* BUTTON STYLES 
+/*===================================================================*/
+
+.trend-button {
+    background: #262626;
+	font-size: 16px;
+    line-height: 16px;
+	padding: 12px 14px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px 5px 5px 0;  
+	text-align: center;
+	text-decoration: none;
+}
+
+.trend-button.small {
+	font-size: 14px;
+	padding: 10px 13px;
+}
+.trend-button.large {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 16px 20px;
+}	
+
+.trend-button.round {
+	border-radius: 200px;
+}
+
+.trend-button:hover,
+.trend-button:focus
+{
+	color: #fff;
+}
+.trend-button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+/* BUTTON COLORS */
+ .trend-button.black { background: #333; border-color: #2C2C2C; }
+.trend-button.black:hover { background-color: #3C3C3C; border-color: #3C3C3C; }	 
+
+.trend-button.grey { background: #888; border-color: #818181; }
+.trend-button.grey:hover { background: #919191; border-color: #919191; }
+
+.trend-button.green { background: #7fc33c; border-color: #69963b; }
+.trend-button.green:hover { background: #8dd242; border-color: #69963b; }
+
+.trend-button.blue { background: #2caada; border-color: #2681a2; }
+.trend-button.blue:hover { background: #32bcef; border-color: #2681a2; }
+
+.trend-button.yellow { background: #FCC71F; border-color: #F5C017;  }
+.trend-button.yellow:hover { background: #FFCF38; border-color: #FFCF38;  } 
+
+.trend-button.red { background: #e3514a; border-color: #ab4b44; }
+.trend-button.red:hover { background: #ff5e56; border-color: #ab4b44; }
+
+.trend-button.purple { background: #d17ac6; border-color: #996192; }
+.trend-button.purple:hover { background: #eb90e0; border-color: #996192; }
+
+.trend-button.orange { background: #FF7654; border-color: #FF6A45; }
+.trend-button.orange:hover { background: #FF8262; border-color: #FF8262; }
+
+.trend-button.pink { background: #FFADCB; border-color: #FDA5C5; }
+.trend-button.pink:hover { background: #FFB5D0; border-color: #FFB5D0; }
+
+
+
+/*===================================================================*/
+/* TOGGLES
+/*===================================================================*/
+
+.trend-toggle {
+	margin-bottom: 10px;
+}
+
+.trend-toggle-heading {
+	background: #edeef0;
+	cursor: pointer;
+	outline: none;
+}
+.trend-toggle-heading.active {
+	background: #fff;
+}
+.trend-toggle-heading p {
+	margin: 0;
+}
+
+
+.trend-toggle-title > a {
+	color: #c5c5c5 ;
+	display: block;
+	text-decoration: none;
+
+	padding: 14px 20px; 
+	font-weight: bold;
+	border: 1px solid #dfdfdf;	
+}
+.trend-toggle-title > a:hover {
+	color: inherit;
+	border: 1px solid #dfdfdf;	
+}
+.trend-toggle-title > a:focus {
+	color: #c5c5c5 ;
+}
+.active .trend-toggle-title > a {
+	color: #262626;
+}
+
+
+.trend-toggle-content {
+	background-color: #FFF;
+	padding: 20px;
+	border: 1px solid #dfdfdf;
+	border-top: 0;	
+}
+
+.collapse {
+	display: none;
+}
+
+.collapse.open {
+	display: block;
+}
+
+.trend-toggle-title > a:before  {
+	font-family: "FontAwesome";
+	font-size: 18px;
+	font-weight: 300;
+	content: "\f067";
+	margin-right: 18px;
+}
+.active .trend-toggle-title > a:before {
+	content: "\f068";
+}
+
+
+
+
+/*===================================================================*/
+/* TABS
+/*===================================================================*/
+
+.trend-tab-headings {
+	float: left;
+	margin: 10px 0 0 0;
+	width: 100%;
+	padding: 0 ;
+	z-index: 400 ;
+	border-bottom: 1px solid #dfdfdf;	
+}
+
+.trend-tab-headings > li {
+	float: left;
+	list-style: none;
+	margin-bottom: 14px;
+}
+
+.trend-tab-headings > li > a {
+	background: #edeef0;
+	color: #c5c5c5;
+	margin-right: 5px;
+	border: 1px solid #d8d8d8;
+
+	padding: 15px 21px;
+	font-weight: bold;	
+}
+.trend-tab-headings > li.active > a,
+.trend-tab-headings > li.active > a:hover,
+.trend-tab-headings > li.active > a:focus
+{
+	color: #262626;
+	background-color: #FFF;
+	cursor: default;
+
+	text-decoration: none;
+	border: 1px solid #dfdfdf;
+	border-bottom-color: transparent;
+}
+.trend-tab-headings > li > a:hover
+{
+	color: inherit;
+}
+
+.trend-tab-body {
+	float: left;
+	opacity: 0;
+	padding: 17px 20px;
+	border: 1px solid #dfdfdf;
+	border-top: 0;
+	z-index: 300;
+}
+
+.trend-tab-body.open {
+	opacity: 1;
+}
+
+.trend-tab-contents {
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 30px;
+	width: 100%;
+	color: #666;
+}
+
+.trend-tab-contents > .trend-tab-body {
+	display: none;
+}
+
+.trend-tab-contents > .open {
+	display: block;
+}
+
+@media only screen 
+and (max-width : 400px) {
+
+	.trend-tab-headings > li {
+		margin-bottom: 0px;
+	}
+	
+	.trend-tab-headings > li > a {
+		margin-right: 1px;
+		padding: 7px 7px;
+	}
+	
+	.trend-tab-body {
+		padding: 7px;
+	}
+}
+
+
+	
+/*===================================================================*/
+/* HIGHLIGHT
+/*===================================================================*/
+
+span.highlight {
+	background-color: #FFF49B;
+	color: #A5651A;
+	padding: 2px 5px;
+	font-style: italic;
+} 
+ 
+
+/*===================================================================*/
+/* ALERTS
+/*===================================================================*/
+
+.trend-alert {
+	background-color: #888;
+	border-radius: 2px;
+	color: #FFF;
+	margin: 0 0 30px 0;
+	padding: 23px;
+	position: relative;
+	line-height: 25px;  
+}
+
+.trend-alert.note 	{ background: #fdf8e4; color: #846f44; border: 1px solid #f7e4bc; }	
+.trend-alert.info 	{ background: #d9edf6; color: #2e6d8e; border: 1px solid #bce8f1; }
+.trend-alert.success { background: #def0d8; color: #417044; border: 1px solid #d4eac4; }	
+.trend-alert.error   { background: #f2dedf; color: #ac4641; border: 1px solid #ebccd2; }	
