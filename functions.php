@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Core Shortcodes
-Plugin URI: http://mstrends.com/plugins/trend-shortcodes
+Plugin URI: https://github.com/MsTrends/core-shortcodes
 Description: Enables some most basic shortcodes for WordPress
 Version: 1.0
 Author: Muhamamd Faisal
