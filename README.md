@@ -1,4 +1,4 @@
-# Core Shortcodes WordPress Plugin
+# Core Shortcodes Plugin
 This plugin includes some basic yet handy shortcodes for WordPress themes, make sure to activate ‘Core Shortcodes’ plugin before using these plugins. Shortcode details are below.
 
 ## Buttons Shortcode
