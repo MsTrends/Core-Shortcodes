@@ -5,7 +5,7 @@ This plugin includes some basic yet handy shortcodes for WordPress themes, make 
 
 Button shortcode accepts 5 parameters and can be defined as …
 
-    [button url="# " color="black" size="small" type="square" target="blank"]Button[/button]
+    [button url="# " color="black" size="small" type="square" target="blank"] Submit [/button]
 
 Possible values of each parameter is given below , default values are given in bold font:
 
@@ -33,9 +33,9 @@ _ _ _
 You can create tabbed sections in your site using this shortcode. This shortcode has special syntax. You need to wrap all your [tab] shortcodes within [tabs] shortcode like the example below to make it work as a tabbed section  …
 
     [tabs]
-    [tab title="First Title"]Your Content  Here.[/tab]
-    [tab title="Second Title"]Your Content  Here.[/tab] 
-    [tab title="Third  Title"]Your Content  Here.[/tab] 
+       [tab title="First Title"]  Content  Here. [/tab]
+       [tab title="Second Title"] Content  Here. [/tab] 
+       [tab title="Third  Title"] Content  Here. [/tab] 
     [/tabs]
 
 
@@ -50,7 +50,7 @@ Toggle shortcode accepts only 1 parameter named ‘state’ and it accepts two v
 	
 Similar  to toggle shortcode, this shortcode also accepts only 1 parameter named ‘style and it accepts four values (success, error, info, note). Default value is ‘info’.
 
-    [alert style="success"]Your Content Here.[/alert]
+    [alert style="success"] Content Here. [/alert]
 
 
 ##  Higlight Text Shortcode
